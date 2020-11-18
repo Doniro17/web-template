@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon --use-strict --watch src ./src/app.js",
-    "debug": "nodemon --use-strict --watch src --inspect ./src/app.js",
+    "debug-brk": "nodemon --use-strict --watch src --inspect-brk ./src/app.js",
     "test": "jest",
     "style:check": "eslint --color --quiet --fix ./src"
   },
@@ -13,11 +13,26 @@
   "license": "ISC",
   "homepage": "",
   "dependencies": {
+    "@koa/router": "^10.0.0",
+    "dotenv": "^8.2.0",
+    "http-status-codes": "^2.1.4",
+    "jest": "^26.6.3",
     "koa": "^2.13.0",
     "koa-body": "^4.2.0",
-    "koa-router": "^9.4.0",
+    "koa-passport": "^4.1.3",
+    "koa-pino-logger": "^3.0.0",
+    "koa-session": "^6.1.0",
     "koa-static": "^5.0.0",
-    "pino": "^6.6.1"
+    "lodash": "^4.17.20",
+    "mime-types": "^2.1.27",
+    "module-alias": "^2.2.2",
+    "mysql2": "^2.2.5",
+    "passport-local": "^1.0.0",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "pino": "^6.7.0",
+    "pino-multi-stream": "^5.1.1",
+    "sequelize": "^6.3.5"
   },
   "devDependencies": {
     "eslint": "^7.9.0",
@@ -31,9 +46,15 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "jest": "^26.4.2",
     "nodemon": "^2.0.4",
     "npm-check-updates": "^9.0.2",
-    "prettier": "^2.1.2"
+    "pino-pretty": "^4.3.0",
+    "prettier": "^2.1.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "_moduleAliases": {
+    "@root": "./src",
+    "@config": "./config",
+    "@model": "./models"
   }
 }

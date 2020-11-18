@@ -11,6 +11,7 @@ services:
     command: "npm run start"
     volumes:
       - ./backend:/home/node/app
+      - ./frontend/public:/home/node/frontend/public
     ports:
       - 3000:3000
 
