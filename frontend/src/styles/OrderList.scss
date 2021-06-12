@@ -1,0 +1,101 @@
+.order {
+    background-color: #C6C6BE;
+    width: 500px;
+    height: 200px;
+    margin: 0 30px 60px 30px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    text-align: left;
+    border-radius: 0 20px 20px 0;
+}
+
+.order__image {
+    width: 200px;
+    height: 200px; 
+    float: left;
+}
+
+.order__data {
+    // width: 360px;
+    overflow: hidden;
+    padding: 20px 20px 5px 20px;
+    margin: 0;
+    // line-height: 24px;
+}
+
+.order__image {
+    width: 200px;
+    height: 200px; 
+    float: left;
+}
+
+.order__description {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 20px;
+}
+  
+// .order__description {
+//     color: rgb(85, 85, 85);
+//     font-size: 16px;
+//     text-overflow: ellipsis; 
+//     white-space: nowrap; 
+//     overflow: hidden; 
+//     line-height: 18px;
+// }
+.order__price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    font-weight: lighter;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+  
+.order__button {
+    display: inline-block;
+    width: 85px;
+    height: 35px;
+    padding: 2px 2px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(228, 72, 72);
+    border: none;
+    border-radius: 7px;
+    margin-right: 15px;
+    // box-shadow: 0 9px #999;
+  }
+
+.recieved__mod {
+    background-color: rgb(72, 228, 142);
+}
+
+.order__button:hover {background-color: rgb(173, 58, 58)}
+  
+.order__button:active {
+    background-color: rgb(173, 58, 58);
+    transform: translateY(2px);
+ }
+
+.recieved__mod:hover {background-color: rgb(53, 170, 105)}
+  
+.recieved__mod:active {
+    background-color: rgb(53, 170, 105);
+    transform: translateY(2px);
+ }
+
+.recieved__mod:disabled {
+    background-color: rgb(160, 218, 186);
+    color: #fff;
+    border: none;
+    cursor: default;
+}

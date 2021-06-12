@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders correctly 1`] = `
+<label
+  class="labelStyle"
+>
+  Client
+  <input
+    class="testClass"
+    name="testName"
+    type="checkbox"
+    value=""
+  />
+  <span
+    class="checkmark"
+  />
+</label>
+`;

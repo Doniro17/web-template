@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders correctly 1`] = `
+<div
+  class="flex-item"
+>
+  <img
+    alt="testName"
+    class="product__image"
+    src="fakesource"
+  />
+  <div
+    class="item__data"
+  >
+    <div
+      class="product__title"
+    >
+      testName
+    </div>
+    <div
+      class="product__description"
+    >
+      test description
+    </div>
+    <div
+      class="product__price"
+    >
+      8800
+    </div>
+    <button
+      class="button"
+      type="button"
+    >
+      Add to cart
+    </button>
+  </div>
+</div>
+`;

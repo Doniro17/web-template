@@ -1,0 +1,147 @@
+section {
+    margin: auto;
+    width: 70%;
+    max-width: 1000px;
+}
+  
+ul {
+    padding: 0;
+}
+
+.product__image {
+    width: 200px;
+    height: 200px; 
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-flow: row wrap;
+    margin-left: 40px;
+}
+.flex-item {
+    background-color: #C6C6BE;
+    width: 400px;
+    height: 200px;
+    margin: 0 30px 60px 30px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    text-align: left;
+    border-radius: 0 20px 20px 0;
+}
+
+.item__data {
+    width: 160px;
+    overflow: hidden;
+    padding: 20px 20px 5px 20px;
+    // line-height: 24px;
+}
+
+.product__title {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 23px;
+}
+  
+.product__description {
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 18px;
+}
+.product__price {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    padding: 20px 0;
+    font-weight: bold;
+    line-height: 34px;
+}
+  
+// .button {
+//     background-color: rgb(123, 134, 165); /* Green */
+//     border: none;
+//     color: white;
+//     border-radius: 24px;
+//     padding: 2px 25px;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 16px;
+// }
+// .button:hover {background-color: rgb(99, 117, 165)}
+
+// .button:active {
+//   background-color:rgb(99, 117, 165);
+//   transform: translateY(3px);
+// }
+
+.new__button {
+    display: inline-block;
+    width: 115px;
+    height: 35px;
+    padding: 2px 2px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(123, 134, 165);
+    border: none;
+    border-radius: 15px;
+    // box-shadow: 0 9px #999;
+  }
+  
+  .new__button:hover {background-color: rgb(99, 117, 165)}
+  
+  .new__button:active {
+    background-color: rgb(99, 117, 165);
+    // box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+.delivery__title {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 24px;
+}
+.delivery__price {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    padding: 3px 0px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.delivery__client {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 18px;
+}
+.delivery__clientName {
+    font-weight:bold;
+}
+.delivery__number {
+    font-size: 20px;
+    padding: 3px 0px;
+    line-height: 28px;
+}

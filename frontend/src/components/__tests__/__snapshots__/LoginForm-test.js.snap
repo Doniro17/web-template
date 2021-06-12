@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm renders correctly 1`] = `
+<form
+  class="login__form"
+>
+  <h2
+    class="form__title"
+  >
+    Login
+  </h2>
+  <div
+    class="form__inputs"
+  >
+    <label
+      class="container"
+    >
+      <input
+        class="form__input"
+        placeholder="email"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label
+      class="container"
+    >
+      <input
+        class="form__input"
+        placeholder="password"
+        type="password"
+        value=""
+      />
+    </label>
+    <br />
+    <label>
+      <input
+        class="form__submit"
+        type="submit"
+        value="Login"
+      />
+    </label>
+  </div>
+</form>
+`;

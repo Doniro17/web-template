@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNavigation renders correctly 1`] = `
+<header
+  class="header"
+>
+  <nav
+    class="header__links"
+  >
+    <div
+      class="links__item"
+    >
+      Logo
+    </div>
+    <a
+      class="links__item"
+      href="/products"
+    >
+      Product
+    </a>
+    <a
+      class="links__item"
+      href="/orders?status=createt"
+    >
+      Orders
+    </a>
+    <a
+      class="links__item"
+      href="/deliveries"
+    >
+      Delivery
+    </a>
+    <a
+      class="links__item"
+      href="/orders?lala=lolo"
+    >
+      Requests
+    </a>
+  </nav>
+</header>
+`;

@@ -1,0 +1,71 @@
+.App {
+    box-sizing: content-box;
+}
+
+.header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: -8px;
+    font-weight: normal;
+    background-color: #C6C6BE;
+}
+.header__title {
+    margin: 67px 0 0 7px;
+    display: inline-block;    
+}
+
+.header__links {
+    margin: 17px 31px 0 31px;
+    list-style: none;
+    float: left;
+    text-align: right;
+    padding: 0;
+}
+.links__item {
+    text-decoration: none;
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    position: relative;
+}
+.links__profile {
+    position: absolute;
+    top: 16px;
+    right: 150px;
+  }
+  
+.profile__icon {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    stroke-width: 0;
+    margin-left: 10px;
+    top: 2px;
+}
+    
+.profile__logout {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    stroke-width: 0;
+    margin-left: 40px;
+    top: -1px;
+    cursor: pointer;
+}
+.profile__name {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}

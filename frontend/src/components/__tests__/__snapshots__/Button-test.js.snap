@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<button
+  class="button"
+  data-testid="test-button"
+  type="button"
+>
+  Actual button
+</button>
+`;
