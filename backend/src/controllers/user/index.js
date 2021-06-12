@@ -5,6 +5,7 @@ const getUser = require('./getUser');
 const updateUser = require('./updateUser');
 const deleteUser = require('./deleteUser');
 const getOrders = require('./getOrders');
+const logout = require('./logout');
 
 module.exports = {
   profile,
@@ -14,4 +15,5 @@ module.exports = {
   updateUser,
   deleteUser,
   getOrders,
+  logout,
 };

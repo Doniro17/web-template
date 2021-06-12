@@ -1,0 +1,2579 @@
+[1610384899526] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43804
+    }
+[1610384899569] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 68
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43804
+    }
+[1610384900404] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43820
+    }
+[1610384900423] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 29
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43820
+    }
+[1610384900896] [32mINFO[39m	 (238 on 91aea5d81f04): [36mUser orders list[39m
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43828
+    }
+[1610384900907] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "229"
+      }
+    }
+    responseTime: 61
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43828
+    }
+[1610384901010] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=1[39m
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43838
+    }
+[1610384901022] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "81"
+      }
+    }
+    responseTime: 27
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43838
+    }
+[1610384901174] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=1[39m
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43854
+    }
+[1610384901184] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "57"
+      }
+    }
+    responseTime: 22
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43854
+    }
+[1610384901344] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 6,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43862
+    }
+[1610384901353] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 6,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43862
+    }
+[1610384901488] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=11[39m
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43870
+    }
+[1610384901496] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "62"
+      }
+    }
+    responseTime: 17
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43870
+    }
+[1610384902555] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 8,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43886
+    }
+[1610384902566] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 23
+    req: {
+      "id": 8,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43886
+    }
+[1610384902673] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=11[39m
+    req: {
+      "id": 9,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43894
+    }
+[1610384902684] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "62"
+      }
+    }
+    responseTime: 22
+    req: {
+      "id": 9,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43894
+    }
+[1610384913423] [32mINFO[39m	 (238 on 91aea5d81f04): [36mDelete users order by id=63[39m
+    req: {
+      "id": 10,
+      "method": "DELETE",
+      "url": "/api/orders/63",
+      "headers": {
+        "content-length": "0",
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43994
+    }
+[1610384913475] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "2"
+      }
+    }
+    responseTime: 65
+    req: {
+      "id": 10,
+      "method": "DELETE",
+      "url": "/api/orders/63",
+      "headers": {
+        "content-length": "0",
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 43994
+    }
+[1610384918030] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 11,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44038
+    }
+[1610384918044] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 11,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44038
+    }
+[1610384918109] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 12,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44042
+    }
+[1610384918122] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 12,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44042
+    }
+[1610384918201] [32mINFO[39m	 (238 on 91aea5d81f04): [36mUser orders list[39m
+    req: {
+      "id": 13,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44050
+    }
+[1610384918209] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "157"
+      }
+    }
+    responseTime: 44
+    req: {
+      "id": 13,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44050
+    }
+[1610384918472] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=1[39m
+    req: {
+      "id": 14,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44068
+    }
+[1610384918479] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "81"
+      }
+    }
+    responseTime: 19
+    req: {
+      "id": 14,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44068
+    }
+[1610384918531] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=1[39m
+    req: {
+      "id": 15,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44076
+    }
+[1610384918539] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "57"
+      }
+    }
+    responseTime: 17
+    req: {
+      "id": 15,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44076
+    }
+[1610384918619] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 16,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44084
+    }
+[1610384918626] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 23
+    req: {
+      "id": 16,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44084
+    }
+[1610384918710] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=11[39m
+    req: {
+      "id": 17,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44092
+    }
+[1610384918722] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "62"
+      }
+    }
+    responseTime: 24
+    req: {
+      "id": 17,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D; adminer_version=4.7.8",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 44092
+    }
+[1610385839284] [32mINFO[39m	 (238 on 91aea5d81f04): [36mProducts list request[39m
+    req: {
+      "id": 18,
+      "method": "GET",
+      "url": "/api/products/",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      }
+    }
+[1610385845798] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 19,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 51524
+    }
+[1610385845810] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 19,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 51524
+    }
+[1610385845878] [32mINFO[39m	 (238 on 91aea5d81f04): [36mProducts list request[39m
+    req: {
+      "id": 20,
+      "method": "GET",
+      "url": "/api/products/",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 51532
+    }
+[1610385845886] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "205"
+      }
+    }
+    responseTime: 21
+    req: {
+      "id": 20,
+      "method": "GET",
+      "url": "/api/products/",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 51532
+    }
+[1610385953432] [32mINFO[39m	 (238 on 91aea5d81f04): [36mOrder creating[39m
+    req: {
+      "id": 21,
+      "method": "POST",
+      "url": "/api/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "content-type": "application/json;charset=UTF-8",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-length": "16",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52410
+    }
+[1610385953546] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "46"
+      }
+    }
+    responseTime: 120
+    req: {
+      "id": 21,
+      "method": "POST",
+      "url": "/api/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "content-type": "application/json;charset=UTF-8",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-length": "16",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52410
+    }
+[1610385955155] [32mINFO[39m	 (238 on 91aea5d81f04): [36mOrder creating[39m
+    req: {
+      "id": 22,
+      "method": "POST",
+      "url": "/api/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "content-type": "application/json;charset=UTF-8",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-length": "16",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52438
+    }
+[1610385955192] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "46"
+      }
+    }
+    responseTime: 43
+    req: {
+      "id": 22,
+      "method": "POST",
+      "url": "/api/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/products",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "content-type": "application/json;charset=UTF-8",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-length": "16",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52438
+    }
+[1610385959309] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 23,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52478
+    }
+[1610385959323] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 19
+    req: {
+      "id": 23,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52478
+    }
+[1610385959421] [32mINFO[39m	 (238 on 91aea5d81f04): [36mUser orders list[39m
+    req: {
+      "id": 24,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52486
+    }
+[1610385959430] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "301"
+      }
+    }
+    responseTime: 46
+    req: {
+      "id": 24,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52486
+    }
+[1610385959494] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=1[39m
+    req: {
+      "id": 25,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52494
+    }
+[1610385959503] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "81"
+      }
+    }
+    responseTime: 25
+    req: {
+      "id": 25,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52494
+    }
+[1610385959570] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=1[39m
+    req: {
+      "id": 26,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52502
+    }
+[1610385959581] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "57"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 26,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52502
+    }
+[1610385959640] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 27,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52510
+    }
+[1610385959650] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 27,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52510
+    }
+[1610385959765] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=11[39m
+    req: {
+      "id": 28,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52518
+    }
+[1610385959769] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "62"
+      }
+    }
+    responseTime: 12
+    req: {
+      "id": 28,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52518
+    }
+[1610385959827] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 29,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52526
+    }
+[1610385959830] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 29,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52526
+    }
+[1610385960114] [31mERROR[39m	 (238 on 91aea5d81f04): [36mFailed request: column "nan" does not exist[39m
+    req: {
+      "id": 30,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52542
+    }
+[1610385960121] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "43"
+      }
+    }
+    responseTime: 192
+    req: {
+      "id": 30,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52542
+    }
+[1610385960188] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 31,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52550
+    }
+[1610385960193] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 13
+    req: {
+      "id": 31,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52550
+    }
+[1610385960374] [31mERROR[39m	 (238 on 91aea5d81f04): [36mFailed request: column "nan" does not exist[39m
+    req: {
+      "id": 32,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52558
+    }
+[1610385960387] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "43"
+      }
+    }
+    responseTime: 25
+    req: {
+      "id": 32,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52558
+    }
+[1610385965203] [32mINFO[39m	 (238 on 91aea5d81f04): [36mDelete users order by id=65[39m
+    req: {
+      "id": 33,
+      "method": "DELETE",
+      "url": "/api/orders/65",
+      "headers": {
+        "content-length": "0",
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52606
+    }
+[1610385965255] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "2"
+      }
+    }
+    responseTime: 62
+    req: {
+      "id": 33,
+      "method": "DELETE",
+      "url": "/api/orders/65",
+      "headers": {
+        "content-length": "0",
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "origin": "http://localhost:8000",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52606
+    }
+[1610385967554] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 34,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52634
+    }
+[1610385967565] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 16
+    req: {
+      "id": 34,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52634
+    }
+[1610385967604] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 35,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52638
+    }
+[1610385967618] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 17
+    req: {
+      "id": 35,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52638
+    }
+[1610385968156] [32mINFO[39m	 (238 on 91aea5d81f04): [36mUser orders list[39m
+    req: {
+      "id": 36,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52654
+    }
+[1610385968163] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "229"
+      }
+    }
+    responseTime: 29
+    req: {
+      "id": 36,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52654
+    }
+[1610385968564] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=1[39m
+    req: {
+      "id": 37,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52666
+    }
+[1610385968572] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "81"
+      }
+    }
+    responseTime: 319
+    req: {
+      "id": 37,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52666
+    }
+[1610385968641] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=1[39m
+    req: {
+      "id": 38,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52674
+    }
+[1610385968647] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "57"
+      }
+    }
+    responseTime: 35
+    req: {
+      "id": 38,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52674
+    }
+[1610385968700] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 39,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52682
+    }
+[1610385968708] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 15
+    req: {
+      "id": 39,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52682
+    }
+[1610385968774] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=11[39m
+    req: {
+      "id": 40,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52690
+    }
+[1610385968788] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "62"
+      }
+    }
+    responseTime: 22
+    req: {
+      "id": 40,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52690
+    }
+[1610385968866] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 41,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52698
+    }
+[1610385968878] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 22
+    req: {
+      "id": 41,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52698
+    }
+[1610385968930] [31mERROR[39m	 (238 on 91aea5d81f04): [36mFailed request: column "nan" does not exist[39m
+    req: {
+      "id": 42,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52706
+    }
+[1610385968939] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "43"
+      }
+    }
+    responseTime: 21
+    req: {
+      "id": 42,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 52706
+    }
+[1610386588529] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 43,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57658
+    }
+[1610386588542] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 17
+    req: {
+      "id": 43,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57658
+    }
+[1610386588649] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn current user profile[39m
+    req: {
+      "id": 44,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57668
+    }
+[1610386588667] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "set-cookie": [
+          "loggedIn=true; path=/",
+          "loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; path=/"
+        ],
+        "content-length": "99"
+      }
+    }
+    responseTime: 23
+    req: {
+      "id": 44,
+      "method": "GET",
+      "url": "/api/users/profile",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57668
+    }
+[1610386588864] [32mINFO[39m	 (238 on 91aea5d81f04): [36mUser orders list[39m
+    req: {
+      "id": 45,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57680
+    }
+[1610386588883] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "229"
+      }
+    }
+    responseTime: 55
+    req: {
+      "id": 45,
+      "method": "GET",
+      "url": "/api/users/5/orders",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57680
+    }
+[1610386589039] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=1[39m
+    req: {
+      "id": 46,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57694
+    }
+[1610386589048] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "81"
+      }
+    }
+    responseTime: 19
+    req: {
+      "id": 46,
+      "method": "GET",
+      "url": "/api/products/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57694
+    }
+[1610386589168] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=1[39m
+    req: {
+      "id": 47,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57702
+    }
+[1610386589179] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "57"
+      }
+    }
+    responseTime: 20
+    req: {
+      "id": 47,
+      "method": "GET",
+      "url": "/api/users/1",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57702
+    }
+[1610386589260] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 48,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57710
+    }
+[1610386589270] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 48,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57710
+    }
+[1610386589347] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn user by id=11[39m
+    req: {
+      "id": 49,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57718
+    }
+[1610386589355] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "62"
+      }
+    }
+    responseTime: 21
+    req: {
+      "id": 49,
+      "method": "GET",
+      "url": "/api/users/11",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57718
+    }
+[1610386589450] [32mINFO[39m	 (238 on 91aea5d81f04): [36mReturn product by its id=2[39m
+    req: {
+      "id": 50,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57726
+    }
+[1610386589461] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "79"
+      }
+    }
+    responseTime: 23
+    req: {
+      "id": 50,
+      "method": "GET",
+      "url": "/api/products/2",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57726
+    }
+[1610386589557] [31mERROR[39m	 (238 on 91aea5d81f04): [36mFailed request: column "nan" does not exist[39m
+    req: {
+      "id": 51,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57734
+    }
+[1610386589565] [32mINFO[39m	 (238 on 91aea5d81f04): [36mrequest completed[39m
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "43"
+      }
+    }
+    responseTime: 18
+    req: {
+      "id": 51,
+      "method": "GET",
+      "url": "/api/users/null",
+      "headers": {
+        "cookie": "koa.sess=4823f200-9655-42ff-8243-a591d6813c89; koa.sess.sig=9Smnwm1Tnm1_oJfMutCc-gxAdHE; loggedIn=true; loggedIn.sig=KJez4R4Ae00vqz8vQyj3ldyMFHs; adminer_key=d00696127dab702e585a0baa2ad94370; adminer_sid=b099e16c2299880c45bfa1908bc35af5; adminer_permanent=cGdzcWw%3D-ZGI%3D-cG9zdGdyZXM%3D-bG50c3VuZGF5%3A5yXfhbTV0bZFYwmPy4t9uA%3D%3D",
+        "accept-language": "en-US,en;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "referer": "http://localhost:8000/orders",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "connection": "close",
+        "host": "localhost:8000"
+      },
+      "remoteAddress": "::ffff:172.18.0.1",
+      "remotePort": 57734
+    }

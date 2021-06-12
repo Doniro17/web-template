@@ -13,6 +13,7 @@ module.exports = async (ctx, next) => {
         id: +id,
       },
     });
+
     if (order) {
       const courier = await haveRights(userId, 'courier');
       const client = (await haveRights(userId, 'client')) && userId === order.userId;
@@ -43,7 +44,14 @@ module.exports = async (ctx, next) => {
         default:
           throw new BadRequest();
       }
-      if (check) {
+      if (check && newStatus === 'delivering') {
+        console.log('ALOOOOOOOOOOOOOOOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAAAAAAdasdSDSDSSDA');
+        console.log(newStatus);
+        order.update({
+          courierId: +userId,
+          status: newStatus,
+        });
+      } else if (check) {
         order.update({
           status: newStatus,
         });

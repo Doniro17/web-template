@@ -6,6 +6,7 @@ module.exports = async (ctx, next) => {
   let products = [];
   const responseOrders = [];
   let orders = {};
+  const userId = ctx.req.user.id;
   if (haveRights(ctx.req.user.id, 'courier') && ctx.query.status === 'created') {
     orders = await Order.findAll({
       attributes: ['userId', 'status'],
@@ -15,18 +16,23 @@ module.exports = async (ctx, next) => {
     });
   } else {
     orders = await Order.findAll({
-      attributes: ['userId', 'status'],
+      attributes: ['id', 'userId', 'status', 'courierId'],
+      where: {
+        userId: userId,
+      },
     });
   }
   for (const order of orders) {
     products = await OrderProduct.findAll({
       attributes: ['productId'],
       where: {
-        orderId: 4,
+        orderId: order.dataValues.id,
       },
     });
     responseOrders.push({
+      id: order.dataValues.id,
       userId: order.dataValues.userId,
+      courierId: order.dataValues.courierId,
       status: order.dataValues.status,
       products: products.map((product) => {
         return product.productId;

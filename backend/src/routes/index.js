@@ -6,8 +6,8 @@ const { errorHandling } = require('@root/middleware');
 
 const router = new Router();
 
-router.use('/users', errorHandling, users.routes());
-router.use('/products', errorHandling, products.routes());
-router.use('/orders', errorHandling, orders.routes());
+router.use('/api/users', errorHandling, users.routes());
+router.use('/api/products', errorHandling, products.routes());
+router.use('/api/orders', errorHandling, orders.routes());
 
 module.exports = router;

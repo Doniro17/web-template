@@ -12,6 +12,14 @@ module.exports = (sequelize, DataTypes) => {
           notEmpty: true,
         },
       },
+      courierId: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        validate: {
+          notNull: false,
+          notEmpty: true,
+        },
+      },
       status: {
         type: DataTypes.ENUM('created', 'delivering', 'delivered', 'done', 'canceled'),
         allowNull: false,

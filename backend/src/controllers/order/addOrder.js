@@ -14,6 +14,7 @@ module.exports = async (ctx, next) => {
     const order = await Order.create({ userId, status });
     const orderId = order.id;
     products.forEach(async (productId) => {
+      // console.log(productId);
       await OrderProduct.create({ orderId, productId });
     });
     ctx.body = JSON.stringify({
